@@ -1,1 +1,88 @@
-hello
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"> 
+		<title></title>
+		<style>
+		html{
+/* 			font-size: 23.4375px */
+		}
+		body{
+			margin: 0
+		}
+		
+		.box{
+			display: flex;
+			justify-content:space-between;
+		}
+		.box div{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			width: 4rem; 
+			height: 2rem;	
+/* 			float: left; */
+			font-size: 1rem;
+			text-align: center
+		}
+		
+		
+		.box div:nth-child(1){
+			background: orange;
+		
+		}
+		
+		.box div:nth-child(2){
+			background: green;
+		}
+		
+		.box div:nth-child(3){
+			background: pink;
+		}
+		
+		.box div:nth-child(4){
+			background: skyblue;
+		}
+		
+		#test{
+			font-size: 4rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		</style>
+	</head>
+<body>
+	<script >
+		(function () {
+			var html = document.documentElement;
+		
+			var width = html.clientWidth;  //(css // consoLe.Log(width);
+		
+			html.style.fontSize = width / 16  + 'px';  //iphone5 /%20px
+
+			
+		})();
+		
+		window.addEventListener('resize', start);
+		function start(){
+		  //document.getElementById('SpanID1').innerText = document.documentElement.clientWidth;
+		  //document.getElementById('SpanID2').innerText = document.documentElement.clientHeight;
+		  var html = document.documentElement;
+		  var width = html.clientWidth;  //(css // consoLe.Log(width);
+		  html.style.fontSize = width / 16  + 'px';  //iphone5 /%20px
+
+		}
+
+	</script>
+	<div class="box">
+		<div class="">1</div>
+		<div class="">2</div>
+		<div class="">3</div>
+		<div class="">4</div>
+	</div>
+ <div id="test">test</div>
+</body>
+</html>
+
