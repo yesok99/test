@@ -5,13 +5,7 @@ rm -rf .git
 
 git status
 
-2. 将变更添加到暂存区（Staging Area）
-git add .
-
-3. 提交变更到本地仓库
-
-git push origin main
-git push -u origin 分支名
+## git流程
 
 (1) 初始化本地仓库
 
@@ -44,7 +38,7 @@ git remote add origin https://github.com/yesok99/rust.git
 git branch -M main
 git push -u origin main
 
-
+## 解决文件夹文件无法上传的问题
 git add test1/ -f
 git status
 
