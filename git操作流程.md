@@ -44,15 +44,17 @@ git push -u origin main
 
 ## 解决文件夹文件无法上传的问题
 git add test1/ -f
+
 git status
 
 强制推送
 git fetch origin
+
 git push -u origin main --force-with-lease
 
-# 文件夹无法上传到git的问题
+## 文件夹无法上传到git的问题
 ✅ 步骤 1：彻底清除 test1 的子模块缓存
-# 1. 检查是否存在隐式子模块配置
+## 1. 检查是否存在隐式子模块配置
 ls -la .git/modules/ 2>/dev/null | grep test1 || echo "No cached submodule"
 
 # 2. 移除 test1 的子模块缓存（如果存在）
