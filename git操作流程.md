@@ -18,11 +18,13 @@ git remote add origin https://github.com/yesok99/rust.git
 (2) 首次提交
 
 git add .
+
 git commit -m "Initial commit"
+
 git push -u origin main  # 推送到 GitHub
 
-
 git branch -m master main      # 重命名分支
+
 git push -u origin main        # 推送到远程 main 分支
 
 
