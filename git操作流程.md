@@ -10,7 +10,9 @@ git status
 (1) 初始化本地仓库
 
 cd your_rust_project
+
 git init
+
 git remote add origin https://github.com/yesok99/rust.git
 
 (2) 首次提交
