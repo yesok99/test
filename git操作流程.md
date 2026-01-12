@@ -1,7 +1,7 @@
-# 删除 git
+## 删除 git
 rm -rf .git
 
-1. 检查当前状态
+## 检查当前状态
 
 git status
 
