@@ -1,0 +1,63 @@
+[
+  {
+    "name": "VPN-XTLS",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "45.32.29.167",
+          "port": 443,
+          "users": [
+            {
+              "encryption": "none",
+              "flow": "xtls-rprx-vision",
+              "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls",
+      "tlsSettings": {
+        "allowInsecure": true,
+        "fingerprint": "chrome",
+        "serverName": "45.32.29.167"
+      }
+    },
+    "tag": "proxy"
+  },
+  {
+    "name": "VPN-WS",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "45.32.29.167",
+          "port": 443,
+          "users": [
+            {
+              "encryption": "none",
+              "flow": "",
+              "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "tlsSettings": {
+        "allowInsecure": true,
+        "fingerprint": "chrome",
+        "serverName": "45.32.29.167"
+      },
+      "wsSettings": {
+        "path": "/ws"
+      }
+    },
+    "tag": "proxy"
+  }
+]

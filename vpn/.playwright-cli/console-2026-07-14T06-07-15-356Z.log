@@ -1,0 +1,29 @@
+[     140ms] [LOG] production @ https://www.autodl.com/assets/components.7b75c5a6.js:0
+[     141ms] [LOG] https://www.autodl.com @ https://www.autodl.com/assets/service-code.2c1d2cac.js:0
+[     210ms] [COUNT] %c%d: 1 @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[     210ms] [DIR] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[     210ms] [DIRXML] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[     210ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[     210ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[     210ms] [LOG] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[     210ms] [TABLE] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[     210ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[ 3030166ms] Error: timeout of 30000ms exceeded
+    at ej (https://www.autodl.com/assets/vendor.93a2c36e.js:44:81309)
+    at o.ontimeout (https://www.autodl.com/assets/vendor.93a2c36e.js:44:84417)
+[23759752ms] Error: timeout of 30000ms exceeded
+    at ej (https://www.autodl.com/assets/vendor.93a2c36e.js:44:81309)
+    at o.ontimeout (https://www.autodl.com/assets/vendor.93a2c36e.js:44:84417)
+[28531589ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://www.autodl.com/api/v1/time_sync:0
+[28531592ms] Error: Network Error
+    at ej (https://www.autodl.com/assets/vendor.93a2c36e.js:44:81309)
+    at o.onerror (https://www.autodl.com/assets/vendor.93a2c36e.js:44:84261)
+[28859564ms] Error: timeout of 30000ms exceeded
+    at ej (https://www.autodl.com/assets/vendor.93a2c36e.js:44:81309)
+    at o.ontimeout (https://www.autodl.com/assets/vendor.93a2c36e.js:44:84417)
+[76053135ms] Error: timeout of 30000ms exceeded
+    at ej (https://www.autodl.com/assets/vendor.93a2c36e.js:44:81309)
+    at o.ontimeout (https://www.autodl.com/assets/vendor.93a2c36e.js:44:84417)
+[77644187ms] Error: timeout of 30000ms exceeded
+    at ej (https://www.autodl.com/assets/vendor.93a2c36e.js:44:81309)
+    at o.ontimeout (https://www.autodl.com/assets/vendor.93a2c36e.js:44:84417)

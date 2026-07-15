@@ -1,0 +1,540 @@
+- generic [active] [ref=e1]:
+  - button "开启读屏标签" [ref=e2]
+  - generic: 读屏标签已关闭
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: //www.douyin.com/jingxuan
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e15]:
+            - generic "Get APP" [ref=e19] [cursor=pointer]:
+              - generic [ref=e21]:
+                - img [ref=e22]
+                - img [ref=e23]
+                - img [ref=e24]
+                - img [ref=e25]
+                - img [ref=e26]
+                - img [ref=e27]
+                - img [ref=e28]
+                - img [ref=e29]
+                - img [ref=e30]
+                - img [ref=e31]
+                - img [ref=e32]
+                - img [ref=e33]
+                - img [ref=e34]
+                - img [ref=e35]
+                - img [ref=e36]
+                - img [ref=e37]
+                - img [ref=e38]
+                - img [ref=e39]
+                - img [ref=e40]
+                - img [ref=e41]
+            - link "精选" [ref=e46] [cursor=pointer]:
+              - /url: https://www.douyin.com/jingxuan?from_nav=1
+              - generic [ref=e49]: 精选
+            - link "推荐" [ref=e54] [cursor=pointer]:
+              - /url: https://www.douyin.com/?recommend=1&from_nav=1
+              - generic [ref=e57]: 推荐
+            - link "关注" [ref=e63] [cursor=pointer]:
+              - /url: https://www.douyin.com/follow?from_nav=1
+              - generic [ref=e66]: 关注
+            - link "朋友" [ref=e71] [cursor=pointer]:
+              - /url: https://www.douyin.com/friend?from_nav=1
+              - generic [ref=e74]: 朋友
+            - link "我的" [ref=e79] [cursor=pointer]:
+              - /url: https://www.douyin.com/user/self?from_nav=1
+              - generic [ref=e82]: 我的
+          - generic [ref=e86]:
+            - img [ref=e87]
+            - generic [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+              - generic [ref=e90]: 下载抖音精选
+          - generic [ref=e92]:
+            - img [ref=e95] [cursor=pointer]
+            - img [ref=e99] [cursor=pointer]
+            - img [ref=e103] [cursor=pointer]
+        - contentinfo [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - generic [ref=e110]: 2026 © 抖音
+              - link "京ICP备16016397号-3" [ref=e112] [cursor=pointer]:
+                - /url: https://beian.miit.gov.cn/
+              - link "icon京公网安备 11000002002046号" [ref=e114] [cursor=pointer]:
+                - /url: http://www.beian.gov.cn/portal/registerSystemInfo
+                - img "icon" [ref=e115]
+                - text: 京公网安备 11000002002046号
+              - generic [ref=e117]: 广播电视节目制作经营许可证 （京）字第11313号
+              - generic [ref=e119]: 增值电信业务经营许可证 京B2-20170846
+              - generic [ref=e121]: 网络文化经营许可证 京网文〔2025〕0181-061号
+              - generic [ref=e123]: 互联网宗教信息服务许可证 京（2025）0000017
+              - generic [ref=e125]: 药品医疗器械网络信息服务备案 （京）网药械信息备字（2023）第00570号
+              - generic [ref=e127]: 互联网新闻信息服务许可证 11220230001
+            - generic [ref=e129]:
+              - link "网络谣言曝光台" [ref=e131] [cursor=pointer]:
+                - /url: https://www.piyao.org.cn/yybgt/index.htm
+              - link "网上有害信息举报" [ref=e133] [cursor=pointer]:
+                - /url: https://www.12377.cn/
+              - generic [ref=e135]: 违法和不良信息举报 400-140-2108 feedback@douyin.com
+              - generic [ref=e137]: 算法推荐专项举报 sfjubao@bytedance.com
+              - generic [ref=e139]: 体育饭圈专项举报 tyfq@bytedance.com
+            - generic [ref=e141]:
+              - link "广告投放" [ref=e143] [cursor=pointer]:
+                - /url: https://www.oceanengine.com/resource/douyin
+              - link "用户服务协议" [ref=e145] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773906068725565448
+              - link "隐私政策" [ref=e147] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773901168964798477
+              - link "账号找回" [ref=e149] [cursor=pointer]:
+                - /url: https://www.douyin.com/recovery_account/
+              - link "联系我们" [ref=e151] [cursor=pointer]:
+                - /url: https://www.douyin.com/aboutus/
+              - link "加入我们" [ref=e153] [cursor=pointer]:
+                - /url: https://www.douyin.com/aboutus/
+              - link "营业执照" [ref=e155] [cursor=pointer]:
+                - /url: https://www.douyin.com/business_license/
+              - link "友情链接" [ref=e157] [cursor=pointer]:
+                - /url: https://www.douyin.com/friend_links
+              - link "站点地图" [ref=e159] [cursor=pointer]:
+                - /url: https://www.douyin.com/htmlmap/hotauthor_0_1
+              - link "下载抖音" [ref=e161] [cursor=pointer]:
+                - /url: https://www.douyin.com/downloadpage/pc
+              - link "抖音电商" [ref=e163] [cursor=pointer]:
+                - /url: https://mix.jinritemai.com/falcon/mix_page/index.html
+    - generic [ref=e164]:
+      - banner [ref=e167]:
+        - generic [ref=e169]:
+          - generic [ref=e173]:
+            - textbox "搜索你感兴趣的内容" [ref=e175]
+            - button "搜索" [ref=e177] [cursor=pointer]:
+              - img [ref=e178]
+              - generic [ref=e180]: 搜索
+          - generic [ref=e184]:
+            - generic [ref=e189] [cursor=pointer]:
+              - img [ref=e191]:
+                - img [ref=e192]
+              - paragraph [ref=e194]: 充钻石
+            - link "客户端" [ref=e199] [cursor=pointer]:
+              - /url: https://www.douyin.com/download/pc/obj/douyin-pc-web/douyin-pc-client/7044145585217083655/releases/412317310/8.1.1/darwin-universal/douyin-v8.1.1-darwin-universal.dmg
+              - generic [ref=e200]:
+                - generic [ref=e201]:
+                  - img [ref=e203]:
+                    - img [ref=e204]
+                  - paragraph [ref=e207]: 客户端
+                - img [ref=e209]
+            - generic [ref=e215] [cursor=pointer]:
+              - img [ref=e217]:
+                - img [ref=e218]
+              - generic [ref=e220]: 壁纸
+            - list [ref=e221]:
+              - generic [ref=e225] [cursor=pointer]:
+                - img [ref=e227]:
+                  - img [ref=e228]
+                - paragraph [ref=e231]: 通知
+            - list [ref=e232]:
+              - paragraph [ref=e239] [cursor=pointer]: 消息
+            - generic [ref=e243] [cursor=pointer]:
+              - img [ref=e245]:
+                - img [ref=e246]
+              - paragraph [ref=e248]: 投稿
+            - button "登录" [ref=e252] [cursor=pointer]:
+              - generic [ref=e253]:
+                - img [ref=e254]
+                - paragraph [ref=e257]: 登录
+      - generic [ref=e262]:
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - generic [ref=e266] [cursor=pointer]:
+              - generic [ref=e268]:
+                - generic [ref=e269]:
+                  - img [ref=e272]:
+                    - img [ref=e273]
+                  - generic [ref=e276]:
+                    - generic [ref=e277]: 00:01
+                    - generic [ref=e278]: /
+                    - generic [ref=e279]: 00:47
+                  - generic [ref=e281]:
+                    - img [ref=e284]:
+                      - img [ref=e285]
+                    - img [ref=e290]:
+                      - img [ref=e291]
+                    - generic [ref=e293]:
+                      - generic [ref=e294]:
+                        - img [ref=e296]
+                        - generic [ref=e301]: 登录后可发布弹幕
+                      - generic [ref=e302]: 发送
+                - generic [ref=e307]:
+                  - img [ref=e310]:
+                    - img [ref=e311]
+                  - img [ref=e315]
+                  - generic [ref=e317]:
+                    - generic [ref=e318]: 因浏览器限制，当前为静音
+                    - button "打开声音" [ref=e319]:
+                      - generic [ref=e320]: 打开声音
+                    - img [ref=e321]:
+                      - img [ref=e322]
+                    - img [ref=e324]:
+                      - img [ref=e325]
+                  - img [ref=e329]:
+                    - img [ref=e330]
+                  - img [ref=e334]:
+                    - img [ref=e335]
+                  - img [ref=e341]
+                  - generic [ref=e344]: 倍速
+                  - generic [ref=e347]: 智能
+                  - generic [ref=e350]:
+                    - button [ref=e351]
+                    - generic [ref=e352]: 清屏
+                  - generic [ref=e355]:
+                    - button [ref=e356]
+                    - generic [ref=e357]: 连播
+              - generic [ref=e361]:
+                - img [ref=e363]:
+                  - img [ref=e364]
+                - img [ref=e368]:
+                  - img [ref=e369]
+            - generic [ref=e375]:
+              - heading "轻上新品西梅多多彻底拿捏我了，西梅+酸奶的结合太绝了" [level=1] [ref=e378]:
+                - generic [ref=e384]: 轻上新品西梅多多彻底拿捏我了，西梅+酸奶的结合太绝了
+              - generic [ref=e385]:
+                - generic [ref=e386]:
+                  - generic [ref=e387] [cursor=pointer]:
+                    - img [ref=e390]
+                    - generic [ref=e398]: 赞
+                  - generic [ref=e399] [cursor=pointer]:
+                    - img [ref=e402]
+                    - generic [ref=e407]: 抢首评
+                  - generic [ref=e408] [cursor=pointer]:
+                    - img [ref=e411]
+                    - generic [ref=e420]: 收藏
+                  - generic [ref=e421] [cursor=pointer]:
+                    - img [ref=e424]
+                    - generic [ref=e429]: 分享
+                - generic [ref=e430]:
+                  - generic [ref=e431] [cursor=pointer]:
+                    - img [ref=e432]
+                    - generic [ref=e434]: 举报
+                  - generic [ref=e435]: 发布时间：2026-06-14 11:08
+            - generic [ref=e439]:
+              - generic [ref=e441]: 全部评论
+              - generic [ref=e444]:
+                - img [ref=e447] [cursor=pointer]
+                - generic [ref=e456] [cursor=pointer]: 请先登录后发表评论
+          - generic [ref=e458]:
+            - generic [ref=e459]:
+              - link "轻上自律零君君直播间" [ref=e462] [cursor=pointer]:
+                - /url: //www.douyin.com/user/MS4wLjABAAAAH5hA87bcbeYC2eaV0jHJZYpQT4wjTzFRWSSh2kdmR3o0Ah9wfi6fXZqYsiwBXYiA
+                - listitem [ref=e463]:
+                  - img "轻上自律零君君直播间" [ref=e464]
+              - generic [ref=e465]:
+                - link "轻上自律零君君直播间" [ref=e466] [cursor=pointer]:
+                  - /url: //www.douyin.com/user/MS4wLjABAAAAH5hA87bcbeYC2eaV0jHJZYpQT4wjTzFRWSSh2kdmR3o0Ah9wfi6fXZqYsiwBXYiA
+                  - generic [ref=e472]: 轻上自律零君君直播间
+                - paragraph [ref=e473]: 粉丝2815获赞7175
+              - button "关注" [ref=e475] [cursor=pointer]:
+                - generic [ref=e476]: 关注
+            - generic [ref=e478]:
+              - heading "推荐视频" [level=2] [ref=e480]
+              - list [ref=e481]:
+                - listitem [ref=e482]:
+                  - generic [ref=e483]:
+                    - link "05:21" [ref=e485] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7630061205608008970
+                      - img [ref=e488]
+                      - generic [ref=e493]: 05:21
+                    - generic [ref=e494]:
+                      - 'heading "马来西亚：华人撑起了经济，却活成了“二等公民”？ #马来西亚 #马来西亚华人 #李光耀 #历史故事 #历史影像" [level=3] [ref=e495]':
+                        - 'link "马来西亚：华人撑起了经济，却活成了“二等公民”？ #马来西亚 #马来西亚华人 #李光耀 #历史故事 #历史影像" [ref=e496] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7630061205608008970
+                          - generic [ref=e501]: "马来西亚：华人撑起了经济，却活成了“二等公民”？ #马来西亚 #马来西亚华人 #李光耀 #历史故事 #历史影像"
+                      - generic [ref=e502]:
+                        - generic [ref=e503]:
+                          - img [ref=e504]
+                          - text: "5127"
+                        - link "靠谱馆长" [ref=e507] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAA0W3CaR9yi9ni3zpESHLMnJD0yAedwQNelK0I9VBC_aYGJ__w-LYISSXn342padVF?author_id=4487573350922009&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7651082798119324934&log_pb=%7B%22impr_id%22%3A%2220260712085133F6D6747D009F30284540%22%7D&relation=0
+                          - generic [ref=e512]: 靠谱馆长
+                - listitem [ref=e513]:
+                  - generic [ref=e514]:
+                    - link "00:26" [ref=e516] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7655651398147471283
+                      - img [ref=e519]
+                      - generic [ref=e524]: 00:26
+                    - generic [ref=e525]:
+                      - 'heading "#随拍 #小电驴#到家了 #下班后的快乐 #生活碎片" [level=3] [ref=e526]':
+                        - 'link "#随拍 #小电驴#到家了 #下班后的快乐 #生活碎片" [ref=e527] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7655651398147471283
+                          - generic [ref=e532]: "#随拍 #小电驴#到家了 #下班后的快乐 #生活碎片"
+                      - generic [ref=e533]:
+                        - generic [ref=e534]:
+                          - img [ref=e535]
+                          - text: "6485"
+                        - link "江苏晴宝" [ref=e538] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAviOjETIMS7AzkhnngPzsuOOYS26hZQ59Yn8LTukkkGXPiG82Fiq6e_QBkgkGeGBu?author_id=4487573350922009&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7651082798119324934&log_pb=%7B%22impr_id%22%3A%2220260712085133F6D6747D009F30284540%22%7D&relation=0
+                          - generic [ref=e543]: 江苏晴宝
+                - listitem [ref=e544]:
+                  - generic [ref=e545]:
+                    - link "00:09" [ref=e547] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7630044479541802619
+                      - img [ref=e550]
+                      - generic [ref=e555]: 00:09
+                    - generic [ref=e556]:
+                      - heading "电瓶车兜风" [level=3] [ref=e557]:
+                        - link "电瓶车兜风" [ref=e558] [cursor=pointer]:
+                          - /url: //www.douyin.com/video/7630044479541802619
+                          - generic [ref=e563]: 电瓶车兜风
+                      - generic [ref=e564]:
+                        - generic [ref=e565]:
+                          - img [ref=e566]
+                          - text: 1.8万
+                        - link "小翁🌱" [ref=e569] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAO7O5I3aw_yQQ1EmpYXFT6rKdMMIBzp0cxZx81dxZ4WMdu8pqi2R0iZFtVXq5jjJz?author_id=4487573350922009&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7651082798119324934&log_pb=%7B%22impr_id%22%3A%2220260712085133F6D6747D009F30284540%22%7D&relation=0
+                          - generic [ref=e575]:
+                            - text: 小翁
+                            - img "🌱"
+                - listitem [ref=e576]:
+                  - generic [ref=e577]:
+                    - link "00:06" [ref=e579] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7651053573665254565
+                      - img [ref=e582]
+                      - generic [ref=e587]: 00:06
+                    - generic [ref=e588]:
+                      - 'heading "回复 @北漂小茉莉的评论 #星巴克 #抖音团购 #点击视频左下角团购更优惠" [level=3] [ref=e589]':
+                        - 'link "回复 @北漂小茉莉的评论 #星巴克 #抖音团购 #点击视频左下角团购更优惠" [ref=e590] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7651053573665254565
+                          - generic [ref=e595]: "回复 @北漂小茉莉的评论 #星巴克 #抖音团购 #点击视频左下角团购更优惠"
+                      - generic [ref=e596]:
+                        - generic [ref=e597]:
+                          - img [ref=e598]
+                          - text: "2941"
+                        - link "北漂小茉莉" [ref=e601] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAl25HcW_EWUvRcxuv4bxvioz9Bg0KRVfgNjkk670mSeORd8g-EwLQ2lO0Bb2aq74A?author_id=4487573350922009&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7651082798119324934&log_pb=%7B%22impr_id%22%3A%2220260712085133F6D6747D009F30284540%22%7D&relation=0
+                          - generic [ref=e606]: 北漂小茉莉
+                - listitem [ref=e607]:
+                  - generic [ref=e608]:
+                    - link "00:37" [ref=e610] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7650051194459672756
+                      - img [ref=e613]
+                      - generic [ref=e618]: 00:37
+                    - generic [ref=e619]:
+                      - 'heading "古鲁特烤肉自助50多一价全含，全场畅吃！！直接烤肉吃到爽，左下角能买就是还有#古鲁特烤肉自助#吃烤肉就选古鲁特#抖音生活烧烤季 #自助烤肉 #烤肉" [level=3] [ref=e620]':
+                        - 'link "古鲁特烤肉自助50多一价全含，全场畅吃！！直接烤肉吃到爽，左下角能买就是还有#古鲁特烤肉自助#吃烤肉就选古鲁特#抖音生活烧烤季 #自助烤肉 #烤肉" [ref=e621] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7650051194459672756
+                          - generic [ref=e626]: "古鲁特烤肉自助50多一价全含，全场畅吃！！直接烤肉吃到爽，左下角能买就是还有#古鲁特烤肉自助#吃烤肉就选古鲁特#抖音生活烧烤季 #自助烤肉 #烤肉"
+                      - generic [ref=e627]:
+                        - generic [ref=e628]:
+                          - img [ref=e629]
+                          - text: "8363"
+                        - link "是曼达呀" [ref=e632] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAw6gSA_A7KzsAxd4_B7g104ko5KW4U13vHH6RNukNVb8?author_id=4487573350922009&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7651082798119324934&log_pb=%7B%22impr_id%22%3A%2220260712085133F6D6747D009F30284540%22%7D&relation=0
+                          - generic [ref=e637]: 是曼达呀
+                - listitem [ref=e638]:
+                  - generic [ref=e639]:
+                    - link "00:36" [ref=e641] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7651278254141917866
+                      - img [ref=e644]
+                      - generic [ref=e649]: 00:36
+                    - generic [ref=e650]:
+                      - heading "我没有梦想，只有订单。没有诗和远方，只有早出晚归，和永远赶不上的时间" [level=3] [ref=e651]:
+                        - link "我没有梦想，只有订单。没有诗和远方，只有早出晚归，和永远赶不上的时间" [ref=e652] [cursor=pointer]:
+                          - /url: //www.douyin.com/video/7651278254141917866
+                          - generic [ref=e657]: 我没有梦想，只有订单。没有诗和远方，只有早出晚归，和永远赶不上的时间
+                      - generic [ref=e658]:
+                        - generic [ref=e659]:
+                          - img [ref=e660]
+                          - text: 1.4万
+                        - link "小饭橘🍊（护胃员）" [ref=e663] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAMZpWDNY2GBM5WzxaBCdnCcDu1-jiM5peVymnRpc4QTxZHxIT00F0NvFHB0TDWPNu?author_id=4487573350922009&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7651082798119324934&log_pb=%7B%22impr_id%22%3A%2220260712085133F6D6747D009F30284540%22%7D&relation=0
+                          - generic [ref=e669]:
+                            - text: 小饭橘
+                            - img "🍊"
+                            - text: （护胃员）
+                - listitem [ref=e670]:
+                  - generic [ref=e671]:
+                    - link "00:56" [ref=e673] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7660491314811563365
+                      - img [ref=e676]
+                      - generic [ref=e681]: 00:56
+                    - generic [ref=e682]:
+                      - 'heading "别吵架有话好好说#芝士 #芝士控 #vlog美食记 #情侣吵架 #芝士就是力量" [level=3] [ref=e683]':
+                        - 'link "别吵架有话好好说#芝士 #芝士控 #vlog美食记 #情侣吵架 #芝士就是力量" [ref=e684] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7660491314811563365
+                          - generic [ref=e689]: "别吵架有话好好说#芝士 #芝士控 #vlog美食记 #情侣吵架 #芝士就是力量"
+                      - generic [ref=e690]:
+                        - generic [ref=e691]:
+                          - img [ref=e692]
+                          - text: 1.9万
+                        - link "杨哥的芝士料理" [ref=e695] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAiu4Fg5ZNSG5GU6C2VnwAFjCFBw5H8u84nPyASGxJ7i09D0ItQurfnMYGG05udfzN?author_id=4487573350922009&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7651082798119324934&log_pb=%7B%22impr_id%22%3A%2220260712085133F6D6747D009F30284540%22%7D&relation=0
+                          - generic [ref=e700]: 杨哥的芝士料理
+                - listitem [ref=e701]:
+                  - generic [ref=e702]:
+                    - link "00:40" [ref=e704] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7659365663513897187
+                      - img [ref=e707]
+                      - generic [ref=e712]: 00:40
+                    - generic [ref=e713]:
+                      - 'heading "这是什么新品！怎么这么好吃两个口味才19.9？？？ #野人先生冰淇淋 #野人先生双口味冰淇淋" [level=3] [ref=e714]':
+                        - 'link "这是什么新品！怎么这么好吃两个口味才19.9？？？ #野人先生冰淇淋 #野人先生双口味冰淇淋" [ref=e715] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7659365663513897187
+                          - generic [ref=e720]: "这是什么新品！怎么这么好吃两个口味才19.9？？？ #野人先生冰淇淋 #野人先生双口味冰淇淋"
+                      - generic [ref=e721]:
+                        - generic [ref=e722]:
+                          - img [ref=e723]
+                          - text: 4.0万
+                        - link "碳水方方" [ref=e726] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAqniYs1MCrMwUVz3_meslsFr0hhRq3kx42py5jbIQBkY?author_id=4487573350922009&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7651082798119324934&log_pb=%7B%22impr_id%22%3A%2220260712085133F6D6747D009F30284540%22%7D&relation=0
+                          - generic [ref=e731]: 碳水方方
+                - listitem [ref=e732]:
+                  - generic [ref=e733]:
+                    - link "00:11" [ref=e735] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7636088885651121908
+                      - img [ref=e738]
+                      - generic [ref=e743]: 00:11
+                    - generic [ref=e744]:
+                      - heading "穿得那么six，载我骑共享😂" [level=3] [ref=e745]:
+                        - link "穿得那么six，载我骑共享😂" [ref=e746] [cursor=pointer]:
+                          - /url: //www.douyin.com/video/7636088885651121908
+                          - generic [ref=e752]:
+                            - text: 穿得那么six，载我骑共享
+                            - img "😂" [ref=e753]
+                      - generic [ref=e754]:
+                        - generic [ref=e755]:
+                          - img [ref=e756]
+                          - text: 1.3万
+                        - link "柳如烟～" [ref=e759] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAA1KnzV5UnIbZylsIRqA3fE0CvrSwvcNifM7BuhQc972w?author_id=4487573350922009&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7651082798119324934&log_pb=%7B%22impr_id%22%3A%2220260712085133F6D6747D009F30284540%22%7D&relation=0
+                          - generic [ref=e764]: 柳如烟～
+                - listitem [ref=e765]:
+                  - generic [ref=e766]:
+                    - link "00:09" [ref=e768] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7640090926220687793
+                      - img [ref=e771]
+                      - generic [ref=e776]: 00:09
+                    - generic [ref=e777]:
+                      - 'heading "将近的晚风快吹干整条小巷 #郑州 #傍晚" [level=3] [ref=e778]':
+                        - 'link "将近的晚风快吹干整条小巷 #郑州 #傍晚" [ref=e779] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7640090926220687793
+                          - generic [ref=e782]:
+                            - generic [ref=e784]: 将近的晚风快吹干整条小巷
+                            - generic [ref=e786]: "#郑州 #傍晚"
+                      - generic [ref=e787]:
+                        - generic [ref=e788]:
+                          - img [ref=e789]
+                          - text: 8.6万
+                        - link "ToT" [ref=e792] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAu2IhZro1JI6E2F7WgjiKOwaTXNnIBexJmn1e3yrgDgEjVjbWqwCIidHiifl5SRCx?author_id=4487573350922009&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7651082798119324934&log_pb=%7B%22impr_id%22%3A%2220260712085133F6D6747D009F30284540%22%7D&relation=0
+                          - generic [ref=e797]: ToT
+        - contentinfo [ref=e798]:
+          - generic [ref=e799]:
+            - generic [ref=e800]:
+              - link "广告投放" [ref=e802] [cursor=pointer]:
+                - /url: https://www.oceanengine.com/resource/douyin
+              - link "用户服务协议" [ref=e804] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773906068725565448
+              - link "隐私政策" [ref=e806] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773901168964798477
+              - link "账号找回" [ref=e808] [cursor=pointer]:
+                - /url: https://www.douyin.com/recovery_account/
+              - link "联系我们" [ref=e810] [cursor=pointer]:
+                - /url: https://www.douyin.com/aboutus/
+              - link "加入我们" [ref=e812] [cursor=pointer]:
+                - /url: https://www.douyin.com/aboutus/
+              - link "营业执照" [ref=e814] [cursor=pointer]:
+                - /url: https://www.douyin.com/business_license/
+              - link "友情链接" [ref=e816] [cursor=pointer]:
+                - /url: https://www.douyin.com/friend_links
+              - link "站点地图" [ref=e818] [cursor=pointer]:
+                - /url: https://www.douyin.com/htmlmap/hotauthor_0_1
+              - link "下载抖音" [ref=e820] [cursor=pointer]:
+                - /url: https://www.douyin.com/downloadpage/pc
+              - link "抖音电商" [ref=e822] [cursor=pointer]:
+                - /url: https://mix.jinritemai.com/falcon/mix_page/index.html
+            - generic [ref=e823]:
+              - link "网络谣言曝光台 ｜" [ref=e825] [cursor=pointer]:
+                - /url: https://www.piyao.org.cn/yybgt/index.htm
+              - link "网上有害信息举报" [ref=e827] [cursor=pointer]:
+                - /url: https://www.12377.cn/
+              - generic [ref=e828]: ｜ 违法和不良信息举报：400-140-2108 feedback@douyin.com ｜ 算法推荐专项举报：sfjubao@bytedance.com | 体育饭圈专项举报：tyfq@bytedance.com
+            - generic [ref=e829]:
+              - link "京ICP备16016397号-3" [ref=e831] [cursor=pointer]:
+                - /url: https://beian.miit.gov.cn/
+              - generic [ref=e832]: ｜ 广播电视节目制作经营许可证 （京）字第11313号
+              - generic [ref=e833]: ｜ 增值电信业务经营许可证 京B2-20170846
+              - generic [ref=e834]: ｜ 网络文化经营许可证 京网文〔2025〕0181-061号 ｜
+              - generic [ref=e835]:
+                - img "icon" [ref=e836]
+                - link "京公网安备 11000002002046号" [ref=e837] [cursor=pointer]:
+                  - /url: http://www.beian.gov.cn/portal/registerSystemInfo
+              - generic [ref=e838]: ｜ 互联网宗教信息服务许可证 京（2025）0000017
+            - generic [ref=e839]:
+              - generic [ref=e841]: 热门：
+              - link "游戏攻略" [ref=e843] [cursor=pointer]:
+                - /url: https://www.douyin.com/jingxuan/game
+              - link "抖音美食" [ref=e845] [cursor=pointer]:
+                - /url: https://www.douyin.com/jingxuan/food
+              - link "诚学信付科技有限公司" [ref=e847] [cursor=pointer]:
+                - /url: https://www.douyin.com/user/MS4wLjABAAAAetmmi8-u-OPZj5Tve1EsGWyEkxxiIvyDkqkmkS2D2b0zkxG6sXs0RBTupS8G0ND8
+              - 'link "广州各区家长都在抢跑，中考结束了不等于可以松口气。 高中才是真正的较量，暑假不衔接，高一直接跟不上。#广州 #广州同城 #广东高考 #广州高三 #复读" [ref=e849] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7661199283156258088
+              - link "高考休息时间怎么安排" [ref=e851] [cursor=pointer]:
+                - /url: https://www.douyin.com/topic/7509884842239117353
+              - link "i7ai高考分数" [ref=e853] [cursor=pointer]:
+                - /url: https://www.douyin.com/shipin/7509907300044458019
+              - link "云南省高本贯通录取分数线" [ref=e855] [cursor=pointer]:
+                - /url: https://www.douyin.com/search/%E4%BA%91%E5%8D%97%E7%9C%81%E9%AB%98%E6%9C%AC%E8%B4%AF%E9%80%9A%E5%BD%95%E5%8F%96%E5%88%86%E6%95%B0%E7%BA%BF
+              - link "阿联酋被曝秘密打击伊朗" [ref=e857] [cursor=pointer]:
+                - /url: https://www.douyin.com/video/7639214779810303278?source=Baiduspider
+              - link "#吟诵是中国古诗文传统读书法#唐诗三百首吟诵#七言古诗唐调吟诵#青青吟诵#与辉同行" [ref=e859] [cursor=pointer]:
+                - /url: https://www.douyin.com/video/7354028604340129063?source=Baiduspider
+              - 'link "老乔：咸丰档案中“出生时辰”的记录，用几点几分看时辰，是近代“大师”的杰作#命理八字 #四柱八字 #老乔生辰 #时辰 #冷知识 @北京万木教育 老乔" [ref=e861] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7356054688212503860?source=Baiduspider
+              - 'link "散粉的正确用法你可以选一个适合自己的，再好用的散粉还要搭配合适的手法才行 定妆在夏季真的很重要 特别是爱出油的肤质。＃定妆 ＃散粉 #散粉的正确用法 ＃新手化妆" [ref=e863] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7481860872965459240?source=Baiduspider-sdc
+              - 'link "范玮琪演唱会竟然唱了王菲的《矜持》，还挺适合她的诶～ #范玮琪 #范玮琪演唱会 #范玮琪巡演 #情歌翻唱 #矜持" [ref=e865] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7518740550318558522?source=Baiduspider
+              - 'link "地暖回填 装修是一个多元化组合工程，想要把任何一个环节做好都不容易，但是更难的是如何协调各个环节的工作！#褚工家装测评#第三方家装监理江苏褚工 #无锡装修褚工测评" [ref=e867] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7396074230154038528?source=Baiduspider
+              - 'link "白卤水的调制方法和细节.. 接前两期卤制鸡和鹅翅的视频。这款卤水可以卤制很多食材，香味醇厚，回味悠长。盐卤脆皮鸡，鸭子，乳鸽，鹅（鹅副）等等。老卤老卤就是越卤越香。如果经常卤制可以放吊桶里每天烧开一次，不经常卤的话就给它打出来放冰箱冷藏。比例打在评论区快做起来吧#美食制作分享 #抖音美食推荐官 #抖音美食创作人 #卤水 #美食趣胃计划" [ref=e869] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7544987703839067438?source=Baiduspider-sdc
+  - article [ref=e875]:
+    - img [ref=e877]
+    - generic [ref=e878]:
+      - generic [ref=e879]:
+        - generic [ref=e880]: 登录后免费畅享高清视频
+        - img [ref=e882] [cursor=pointer]
+      - generic [ref=e885]:
+        - generic [ref=e888]:
+          - generic [ref=e890] [cursor=pointer]: 扫码登录
+          - generic [ref=e894]:
+            - generic [ref=e895]:
+              - generic [ref=e896] [cursor=pointer]: 如何扫码
+              - generic [ref=e897]:
+                - img "二维码" [ref=e898]
+                - img [ref=e900]
+              - img [ref=e912]
+            - paragraph [ref=e918]:
+              - paragraph [ref=e919]: 打开「抖音APP」点击左上角
+              - img [ref=e920]
+              - paragraph [ref=e926]: 扫一扫
+        - generic [ref=e929]:
+          - generic [ref=e930] [cursor=pointer]:
+            - generic [ref=e931]: 验证码登录
+            - img [ref=e933]
+            - generic [ref=e934]: 密码登录
+          - generic [ref=e938]:
+            - generic [ref=e940]:
+              - combobox "国家/地区" [ref=e943]: "+1"
+              - img [ref=e946]
+              - textbox "请输入手机号" [ref=e947]
+            - generic [ref=e949]:
+              - textbox "请输入验证码" [ref=e951]
+              - generic [ref=e952]: 获取验证码
+            - generic [ref=e955]: 登录
+            - generic "登录即代表同意用户协议和隐私政策" [ref=e957]:
+              - text: 登录即代表同意
+              - link "用户协议" [ref=e958] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773906068725565448
+              - text: 和
+              - link "隐私政策" [ref=e959] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773901168964798477

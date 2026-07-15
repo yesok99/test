@@ -1,0 +1,302 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: GLM-5.2已上线
+      - link "大模型广场" [ref=e5] [cursor=pointer]:
+        - /url: https://autodl.art/large-model/market
+    - generic [ref=e6]:
+      - img "logo" [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11] [cursor=pointer]: 算力市场
+          - generic [ref=e12] [cursor=pointer]: AI应用
+          - generic [ref=e13] [cursor=pointer]: 大模型API
+          - generic [ref=e14] [cursor=pointer]: 私有云
+          - generic [ref=e15] [cursor=pointer]: 帮助文档
+          - generic [ref=e16] [cursor=pointer]:
+            - text: 更多
+            - generic [ref=e17]: 
+        - generic [ref=e18]: 控制台
+      - generic [ref=e20] [cursor=pointer]:
+        - text: 炼丹师7829
+        - generic [ref=e21]: 
+    - generic [ref=e22]:
+      - generic [ref=e24]:
+        - menubar [ref=e26]:
+          - menuitem "主页" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: 
+            - text: 主页
+          - menuitem "容器实例" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]: 
+            - text: 容器实例
+          - menuitem "文件存储" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: 
+            - text: 文件存储
+          - menuitem "镜像" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: 
+            - text: 镜像
+          - menuitem "公开数据" [ref=e35] [cursor=pointer]:
+            - generic [ref=e36]: 
+            - text: 公开数据
+          - menuitem "费用 " [ref=e37]:
+            - generic [ref=e38] [cursor=pointer]:
+              - generic [ref=e39]: 
+              - text: 费用
+              - generic [ref=e40]: 
+          - menuitem "账号 " [ref=e41]:
+            - generic [ref=e42] [cursor=pointer]:
+              - generic [ref=e43]: 
+              - text: 账号
+              - generic [ref=e44]: 
+        - generic [ref=e46] [cursor=pointer]: 
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: 容器实例
+            - generic [ref=e51]: 实例连续关机15天会释放实例，实例释放会导致数据清空且不可恢复，释放前实例在数据在。
+          - generic [ref=e52]:
+            - button "订阅GPU通知" [ref=e54] [cursor=pointer]:
+              - generic [ref=e55]: 订阅GPU通知
+            - button "设置SSH免密登录" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 设置SSH免密登录
+            - generic [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: 小程序管理实例
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - button "租用新实例" [ref=e64] [cursor=pointer]:
+                - generic [ref=e65]: 租用新实例
+              - button "批量续费" [ref=e66] [cursor=pointer]:
+                - generic [ref=e67]: 批量续费
+              - button "" [ref=e68] [cursor=pointer]:
+                - generic [ref=e69]: 
+            - generic [ref=e70]:
+              - generic [ref=e73]:
+                - textbox "筛选标签/子账号" [ref=e74] [cursor=pointer]
+                - generic [ref=e76] [cursor=pointer]: 
+              - generic [ref=e77]:
+                - textbox "搜索实例名称/ID" [ref=e78]
+                - generic [ref=e80]: 
+              - generic [ref=e81] [cursor=pointer]: 
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e86]:
+                - table [ref=e88]:
+                  - rowgroup [ref=e100]:
+                    - row "实例ID /名称 状态  规格详情 本地磁盘 健康状态 付费方式  释放时间/停机时间 SSH登录 快捷工具 操作" [ref=e101]:
+                      - columnheader "实例ID /名称" [ref=e102]:
+                        - generic [ref=e103]: 实例ID /名称
+                      - columnheader "状态 " [ref=e104]:
+                        - generic [ref=e105]:
+                          - text: 状态
+                          - generic [ref=e107] [cursor=pointer]: 
+                      - columnheader "规格详情" [ref=e108]:
+                        - generic [ref=e109]: 规格详情
+                      - columnheader "本地磁盘" [ref=e110]:
+                        - generic [ref=e111]: 本地磁盘
+                      - columnheader "健康状态" [ref=e112]:
+                        - generic [ref=e113]: 健康状态
+                      - columnheader "付费方式 " [ref=e114]:
+                        - generic [ref=e115]:
+                          - text: 付费方式
+                          - generic [ref=e117] [cursor=pointer]: 
+                      - columnheader "释放时间/停机时间" [ref=e118]:
+                        - generic [ref=e119]:
+                          - text: 释放时间/停机时间
+                          - generic [ref=e120]: 
+                      - columnheader "SSH登录" [ref=e121]:
+                        - generic [ref=e122]: SSH登录
+                      - columnheader "快捷工具" [ref=e123]:
+                        - generic [ref=e124]: 快捷工具
+                      - columnheader "操作" [ref=e125]:
+                        - generic [ref=e126]: 操作
+                - table [ref=e128]:
+                  - rowgroup [ref=e140]:
+                    - row "内蒙B区 / 289机 e7fa45a3ae-cd3fe9bf 设置名称 运行中 无卡模式 RTX 3090 * 1卡 查看详情 系统盘 9.75% 数据盘 0.00% 正常 CPU 0 0% 内存 14 14% 按量计费 余额不足24小时 关机15天后释放 设置定时关机 登录指令 ssh******  密码 *********  JupyterLab AutoPanel 实例监控 自定义服务 关机 更多" [ref=e141]:
+                      - cell "内蒙B区 / 289机 e7fa45a3ae-cd3fe9bf 设置名称" [ref=e142]:
+                        - generic [ref=e144]:
+                          - generic [ref=e145]: 内蒙B区 / 289机
+                          - generic [ref=e146] [cursor=pointer]: e7fa45a3ae-cd3fe9bf
+                          - button "设置名称" [ref=e147] [cursor=pointer]:
+                            - generic [ref=e148]: 设置名称
+                      - cell "运行中 无卡模式" [ref=e149]:
+                        - generic [ref=e152]:
+                          - generic [ref=e153]: 运行中
+                          - generic [ref=e154]:
+                            - generic [ref=e155]: 
+                            - text: 无卡模式
+                      - cell "RTX 3090 * 1卡 查看详情" [ref=e156]:
+                        - generic [ref=e158]:
+                          - generic [ref=e159]: RTX 3090 * 1卡
+                          - button "查看详情" [active] [ref=e160] [cursor=pointer]:
+                            - generic [ref=e161]: 查看详情
+                      - cell "系统盘 9.75% 数据盘 0.00%" [ref=e162]:
+                        - generic [ref=e164]:
+                          - generic [ref=e165]: 系统盘 9.75%
+                          - generic [ref=e166]: 数据盘 0.00%
+                      - cell "正常 CPU 0 0% 内存 14 14%" [ref=e167]:
+                        - generic [ref=e170]:
+                          - text: 正常
+                          - generic [ref=e171]:
+                            - generic [ref=e172]:
+                              - generic [ref=e173]: CPU
+                              - progressbar [ref=e174]:
+                                - img [ref=e176]
+                              - generic [ref=e179]: 0%
+                            - generic [ref=e180]:
+                              - generic [ref=e181]: 内存
+                              - progressbar [ref=e182]:
+                                - img [ref=e184]
+                              - generic [ref=e187]: 14%
+                      - cell "按量计费 余额不足24小时" [ref=e188]:
+                        - generic [ref=e191]:
+                          - generic [ref=e192]: 按量计费
+                          - generic [ref=e194]: 余额不足24小时
+                      - cell "关机15天后释放 设置定时关机" [ref=e195]:
+                        - generic [ref=e198]:
+                          - generic [ref=e199]: 关机15天后释放
+                          - button "设置定时关机" [ref=e200] [cursor=pointer]:
+                            - generic [ref=e201]: 设置定时关机
+                      - cell "登录指令 ssh******  密码 ********* " [ref=e202]:
+                        - generic [ref=e205]:
+                          - generic [ref=e206]: 登录指令
+                          - generic [ref=e207]:
+                            - generic [ref=e208]: ssh******
+                            - generic [ref=e209] [cursor=pointer]: 
+                          - generic [ref=e210]: 密码
+                          - generic [ref=e211]:
+                            - generic [ref=e212]: "*********"
+                            - generic [ref=e213] [cursor=pointer]: 
+                      - cell "JupyterLab AutoPanel 实例监控 自定义服务" [ref=e214]:
+                        - generic [ref=e217]:
+                          - button "JupyterLab" [ref=e218] [cursor=pointer]:
+                            - generic [ref=e219]: JupyterLab
+                          - button "AutoPanel" [ref=e220] [cursor=pointer]:
+                            - generic [ref=e221]: AutoPanel
+                          - button "实例监控" [ref=e222] [cursor=pointer]:
+                            - generic [ref=e223]: 实例监控
+                          - button "自定义服务" [ref=e224] [cursor=pointer]:
+                            - generic [ref=e225]: 自定义服务
+                      - cell "关机 更多" [ref=e226]:
+                        - generic [ref=e228]:
+                          - button "关机" [ref=e229] [cursor=pointer]:
+                            - generic [ref=e230]: 关机
+                          - button "更多" [ref=e232] [cursor=pointer]:
+                            - generic [ref=e233]: 更多
+                    - row "内蒙B区 / 202机 4dfe4b893c-3ed50b55 设置名称 已关机 GPU充足 RTX 4090 * 1卡 查看详情 系统盘 53.19% 数据盘 0.00% 正常 按量计费 14天22小时24分后释放 设置定时关机 开机 更多" [ref=e306]:
+                      - cell "内蒙B区 / 202机 4dfe4b893c-3ed50b55 设置名称" [ref=e235]:
+                        - generic [ref=e237]:
+                          - generic [ref=e238]: 内蒙B区 / 202机
+                          - generic [ref=e239] [cursor=pointer]: 4dfe4b893c-3ed50b55
+                          - button "设置名称" [ref=e240] [cursor=pointer]:
+                            - generic [ref=e241]: 设置名称
+                      - cell "已关机 GPU充足" [ref=e242]:
+                        - generic [ref=e245]:
+                          - generic [ref=e246]: 已关机
+                          - generic [ref=e247]: GPU充足
+                      - cell "RTX 4090 * 1卡 查看详情" [ref=e248]:
+                        - generic [ref=e250]:
+                          - generic [ref=e251]: RTX 4090 * 1卡
+                          - button "查看详情" [ref=e252] [cursor=pointer]:
+                            - generic [ref=e253]: 查看详情
+                      - cell "系统盘 53.19% 数据盘 0.00%" [ref=e254]:
+                        - generic [ref=e256]:
+                          - generic [ref=e257]: 系统盘 53.19%
+                          - generic [ref=e258]: 数据盘 0.00%
+                      - cell "正常" [ref=e259]:
+                        - generic [ref=e262]: 正常
+                      - cell "按量计费" [ref=e263]:
+                        - generic [ref=e267]: 按量计费
+                      - cell "14天22小时24分后释放 设置定时关机" [ref=e307]:
+                        - generic [ref=e271]:
+                          - generic [ref=e272]: 14天22小时24分后释放
+                          - button "设置定时关机" [ref=e273] [cursor=pointer]:
+                            - generic [ref=e274]: 设置定时关机
+                      - cell [ref=e275]
+                      - cell [ref=e277]
+                      - cell "开机 更多" [ref=e279]:
+                        - generic [ref=e281]:
+                          - button "开机" [ref=e282] [cursor=pointer]:
+                            - generic [ref=e283]: 开机
+                          - button "更多" [ref=e285] [cursor=pointer]:
+                            - generic [ref=e286]: 更多
+              - generic "pagination" [ref=e288]:
+                - generic [ref=e289]: 共 2 条
+                - button "" [disabled] [ref=e290]:
+                  - generic [ref=e291]: 
+                - list [ref=e292]:
+                  - listitem [ref=e293]: "1"
+                - button "" [disabled] [ref=e294]:
+                  - generic [ref=e295]: 
+                - generic [ref=e299]:
+                  - textbox "请选择" [ref=e300] [cursor=pointer]: 10条/页
+                  - generic [ref=e302] [cursor=pointer]: 
+                - generic [ref=e303]:
+                  - text: 前往
+                  - spinbutton [ref=e305]: "1"
+                  - text: 页
+            - text:         
+      - text:     
+  - link:
+    - /url: /docs/
+  - link:
+    - /url: /home
+  - link:
+    - /url: /register
+  - link:
+    - /url: /login
+  - text: 
+  - tooltip "镜像 Holasyb918/HeyGem-Linux-Python-Hack/heygem_linux_webui:v4 镜像详情 更换 GPU RTX 3090(24GB) * 1 升降配置 CPU 14 vCPU Intel(R) Xeon(R) Gold 6330 CPU @ 2.00GHz 内存 90GB 硬盘 系统盘:30 GB 数据盘:免费:50GB SSD 付费:0GB 扩容 缩容 附加磁盘 无 端口映射 无 自定义服务端口协议 6006端口：http6008端口：http 修改 网络 同一地区实例共享带宽 计费方式 按量计费 费用 ￥1.48/时￥1.56/时" [ref=e308]:
+    - generic [ref=e309]:
+      - generic [ref=e310]:
+        - generic [ref=e311]: 镜像
+        - generic [ref=e312]: Holasyb918/HeyGem-Linux-Python-Hack/heygem_linux_webui:v4
+        - button "镜像详情" [ref=e313] [cursor=pointer]:
+          - generic [ref=e314]: 镜像详情
+        - button "更换" [disabled] [ref=e315]:
+          - generic [ref=e316]: 更换
+      - generic [ref=e317]:
+        - generic [ref=e318]: GPU
+        - generic [ref=e319]:
+          - text: RTX 3090(24GB) * 1
+          - button "升降配置" [ref=e320] [cursor=pointer]:
+            - generic [ref=e321]: 升降配置
+      - generic [ref=e322]:
+        - generic [ref=e323]: CPU
+        - generic [ref=e324]: 14 vCPU Intel(R) Xeon(R) Gold 6330 CPU @ 2.00GHz
+      - generic [ref=e325]:
+        - generic [ref=e326]: 内存
+        - generic [ref=e327]: 90GB
+      - generic [ref=e328]:
+        - generic [ref=e329]: 硬盘
+        - generic [ref=e330]:
+          - generic [ref=e331]: 系统盘:30 GB
+          - generic [ref=e332]:
+            - text: 数据盘:免费:50GB SSD 付费:0GB
+            - button "扩容" [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]: 扩容
+            - button "缩容" [ref=e335] [cursor=pointer]:
+              - generic [ref=e336]: 缩容
+      - generic [ref=e337]:
+        - generic [ref=e338]: 附加磁盘
+        - generic [ref=e339]: 无
+      - generic [ref=e340]:
+        - generic [ref=e341]: 端口映射
+        - generic [ref=e342]: 无
+      - generic [ref=e343]:
+        - generic [ref=e344]: 自定义服务端口协议
+        - generic [ref=e345]:
+          - text: 6006端口：http6008端口：http
+          - button "修改" [ref=e346] [cursor=pointer]:
+            - generic [ref=e347]: 修改
+      - generic [ref=e348]:
+        - generic [ref=e349]: 网络
+        - generic [ref=e350]: 同一地区实例共享带宽
+      - generic [ref=e351]:
+        - generic [ref=e352]: 计费方式
+        - generic [ref=e353]: 按量计费
+      - generic [ref=e354]:
+        - generic [ref=e355]: 费用
+        - generic [ref=e356]: ￥1.48/时￥1.56/时
+  - text: 

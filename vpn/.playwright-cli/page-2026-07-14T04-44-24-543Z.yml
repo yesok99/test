@@ -1,0 +1,8 @@
+- generic [active] [ref=e1]:
+  - navigation "Top Menu" [ref=e2]:
+    - link "Jupyter Server" [ref=e5] [cursor=pointer]:
+      - /url: /jupyter/lab?token=jupyter-autodl-container-e7fa45a3ae-cd3fe9bf-3a249dbd384ba4616855942b5a593ae9b3c8ed9f974724c55a119617738e54dbc
+      - img "Jupyter Server" [ref=e6]
+  - generic [ref=e9]:
+    - 'heading "404 : Not Found" [level=1] [ref=e10]'
+    - paragraph [ref=e11]: You are requesting a page that does not exist!

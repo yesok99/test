@@ -1,0 +1,86 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: //www.douyin.com/jingxuan
+    - generic [ref=e12]:
+      - generic [ref=e14]:
+        - generic "Get APP" [ref=e18] [cursor=pointer]:
+          - generic [ref=e20]:
+            - img [ref=e21]
+            - img [ref=e22]
+            - img [ref=e23]
+            - img [ref=e24]
+            - img [ref=e25]
+            - img [ref=e26]
+            - img [ref=e27]
+            - img [ref=e28]
+            - img [ref=e29]
+            - img [ref=e30]
+            - img [ref=e31]
+            - img [ref=e32]
+            - img [ref=e33]
+            - img [ref=e34]
+            - img [ref=e35]
+            - img [ref=e36]
+            - img [ref=e37]
+            - img [ref=e38]
+            - img [ref=e39]
+            - img [ref=e40]
+        - link "精选" [ref=e45] [cursor=pointer]:
+          - /url: https://www.douyin.com/jingxuan?from_nav=1
+          - generic [ref=e48]: 精选
+        - link "推荐" [ref=e53] [cursor=pointer]:
+          - /url: https://www.douyin.com/?recommend=1&from_nav=1
+          - generic [ref=e56]: 推荐
+        - link "关注" [ref=e62] [cursor=pointer]:
+          - /url: https://www.douyin.com/follow?from_nav=1
+          - generic [ref=e65]: 关注
+        - link "朋友" [ref=e70] [cursor=pointer]:
+          - /url: https://www.douyin.com/friend?from_nav=1
+          - generic [ref=e73]: 朋友
+        - link "我的" [ref=e78] [cursor=pointer]:
+          - /url: https://www.douyin.com/user/self?from_nav=1
+          - generic [ref=e81]: 我的
+      - generic [ref=e85]:
+        - img [ref=e88]
+        - img [ref=e92]
+        - img [ref=e96]
+  - generic [ref=e99]:
+    - banner [ref=e102]:
+      - generic [ref=e104]:
+        - generic [ref=e108]:
+          - textbox "搜索你感兴趣的内容" [ref=e110]
+          - button "搜索" [ref=e112] [cursor=pointer]:
+            - img [ref=e113]
+            - generic [ref=e115]: 搜索
+        - generic [ref=e119]:
+          - generic [ref=e121] [cursor=pointer]:
+            - img [ref=e123]:
+              - img [ref=e124]
+            - paragraph [ref=e126]: 充钻石
+          - link "客户端" [ref=e131] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e133]:
+              - img [ref=e135]:
+                - img [ref=e136]
+              - paragraph [ref=e139]: 客户端
+          - generic [ref=e141] [cursor=pointer]:
+            - img [ref=e143]:
+              - img [ref=e144]
+            - paragraph [ref=e146]: 壁纸
+          - list [ref=e147]:
+            - generic [ref=e151] [cursor=pointer]:
+              - img [ref=e153]:
+                - img [ref=e154]
+              - paragraph [ref=e157]: 通知
+          - list [ref=e158]:
+            - paragraph [ref=e165] [cursor=pointer]: 消息
+          - generic [ref=e169] [cursor=pointer]:
+            - img [ref=e171]:
+              - img [ref=e172]
+            - paragraph [ref=e174]: 投稿
+          - button "登录" [ref=e178] [cursor=pointer]:
+            - paragraph [ref=e180]: 登录
+    - generic [ref=e183]:
+      - generic [ref=e187]: 你要观看的音乐不存在
+      - contentinfo [ref=e188]

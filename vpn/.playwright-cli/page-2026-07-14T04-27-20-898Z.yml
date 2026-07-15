@@ -1,0 +1,294 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: GLM-5.2已上线
+      - link "大模型广场" [ref=e5] [cursor=pointer]:
+        - /url: https://autodl.art/large-model/market
+    - generic [ref=e6]:
+      - img "logo" [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11] [cursor=pointer]: 算力市场
+          - generic [ref=e12] [cursor=pointer]: AI应用
+          - generic [ref=e13] [cursor=pointer]: 大模型API
+          - generic [ref=e14] [cursor=pointer]: 私有云
+          - generic [ref=e15] [cursor=pointer]: 帮助文档
+          - generic [ref=e16] [cursor=pointer]:
+            - text: 更多
+            - generic [ref=e17]: 
+        - generic [ref=e18]: 控制台
+      - generic [ref=e20] [cursor=pointer]:
+        - text: 炼丹师7829
+        - generic [ref=e21]: 
+    - generic [ref=e22]:
+      - generic [ref=e23] [cursor=pointer]: 领优惠券
+      - generic [ref=e25]:
+        - generic [ref=e27]: 
+        - generic [ref=e29]: 
+        - generic [ref=e31]: 
+      - text: 
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - link "容器实例" [ref=e38] [cursor=pointer]:
+                - /url: /console/instance/list
+              - text: /
+            - generic [ref=e39]: 创建实例
+          - generic [ref=e40]:
+            - generic [ref=e41]: 
+            - generic [ref=e42]: 严禁使用WebUI等算法生成违禁图片、严禁挖矿，一经发现立即封号！
+        - generic [ref=e43]:
+          - generic [ref=e45]: "计费方式:"
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - radiogroup [ref=e48]:
+                - radio "按量计费" [checked] [ref=e49]:
+                  - radio "按量计费" [checked] [ref=e50]
+                  - generic [ref=e51] [cursor=pointer]: 按量计费
+                - radio "包日" [ref=e52]:
+                  - radio "包日" [ref=e53]
+                  - generic [ref=e54] [cursor=pointer]: 包日
+                - radio "包周" [ref=e55]:
+                  - radio "包周" [ref=e56]
+                  - generic [ref=e57] [cursor=pointer]: 包周
+                - radio "包月" [ref=e58]:
+                  - radio "包月" [ref=e59]
+                  - generic [ref=e60] [cursor=pointer]: 包月
+              - link "计费规则" [ref=e61] [cursor=pointer]:
+                - /url: /docs/price/
+            - generic [ref=e62]: 创建完主机后仍然可以转换计费方式。如选择按量计费，价格发生变动以实例开机时的价格为准
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - generic [ref=e66]: "选择地区:"
+              - radiogroup [ref=e67]:
+                - radio "西北B区" [checked] [ref=e68]:
+                  - radio "西北B区" [checked] [ref=e69]
+                  - generic [ref=e70] [cursor=pointer]: 西北B区
+                - radio "北京B区" [ref=e71]:
+                  - radio "北京B区" [ref=e72]
+                  - generic [ref=e73] [cursor=pointer]: 北京B区
+                - radio "重庆A区" [ref=e74]:
+                  - radio "重庆A区" [ref=e75]
+                  - generic [ref=e76] [cursor=pointer]: 重庆A区
+                - radio "内蒙B区" [ref=e77]:
+                  - radio "内蒙B区" [ref=e78]
+                  - generic [ref=e79] [cursor=pointer]: 内蒙B区
+                - radio "北京A区" [ref=e80]:
+                  - radio "北京A区" [ref=e81]
+                  - generic [ref=e82] [cursor=pointer]: 北京A区
+                - radio "佛山区" [ref=e83]:
+                  - radio "佛山区" [ref=e84]
+                  - generic [ref=e85] [cursor=pointer]: 佛山区
+            - radiogroup [ref=e87]:
+              - radio "V100专区" [ref=e88]:
+                - radio "V100专区" [ref=e89]
+                - generic [ref=e90] [cursor=pointer]: V100专区
+              - radio "A800专区" [ref=e91]:
+                - radio "A800专区" [ref=e92]
+                - generic [ref=e93] [cursor=pointer]: A800专区
+              - radio "摩尔线程专区" [ref=e94]:
+                - radio "摩尔线程专区" [ref=e95]
+                - generic [ref=e96] [cursor=pointer]: 摩尔线程专区
+              - radio "L20专区" [ref=e97]:
+                - radio "L20专区" [ref=e98]
+                - generic [ref=e99] [cursor=pointer]: L20专区
+            - generic [ref=e100]:
+              - generic [ref=e101]: "GPU型号:"
+              - generic [ref=e102]:
+                - generic [ref=e104] [cursor=pointer]:
+                  - generic [ref=e105]:
+                    - checkbox "全部"
+                  - generic [ref=e107]: 全部
+                - group "checkbox-group":
+                  - generic [ref=e108] [cursor=pointer]:
+                    - generic [ref=e109]:
+                      - checkbox "RTX 5090 (51/1824)"
+                    - generic [ref=e111]: RTX 5090 (51/1824)
+                  - generic [ref=e112] [cursor=pointer]:
+                    - generic [ref=e113]:
+                      - checkbox "RTX PRO 6000 (273/1573)"
+                    - generic [ref=e115]: RTX PRO 6000 (273/1573)
+                  - generic [ref=e116] [cursor=pointer]:
+                    - generic [ref=e117]:
+                      - checkbox "RTX 6000D (47/135)"
+                    - generic [ref=e119]: RTX 6000D (47/135)
+                  - generic [ref=e120] [cursor=pointer]:
+                    - generic [ref=e121]:
+                      - checkbox "vGPU-32GB (520/2177)"
+                    - generic [ref=e123]: vGPU-32GB (520/2177)
+                  - generic [ref=e124] [cursor=pointer]:
+                    - generic [ref=e125]:
+                      - checkbox "vGPU-48GB (52/962)"
+                    - generic [ref=e127]: vGPU-48GB (52/962)
+                  - generic [ref=e128] [cursor=pointer]:
+                    - generic [ref=e129]:
+                      - checkbox "RTX 5090 D (3/48)"
+                    - generic [ref=e131]: RTX 5090 D (3/48)
+                  - generic [ref=e132] [cursor=pointer]:
+                    - generic [ref=e133]:
+                      - checkbox "H800 (0/96)"
+                    - generic [ref=e135]: H800 (0/96)
+                  - generic [ref=e136] [cursor=pointer]:
+                    - generic [ref=e137]:
+                      - checkbox "RTX 4090D (0/1064)"
+                    - generic [ref=e139]: RTX 4090D (0/1064)
+                  - generic [ref=e140] [cursor=pointer]:
+                    - generic [ref=e141]:
+                      - checkbox "RTX 4090 (0/1835)"
+                    - generic [ref=e143]: RTX 4090 (0/1835)
+                  - generic [ref=e144] [cursor=pointer]:
+                    - generic [ref=e145]:
+                      - checkbox "RTX 3090 (0/210)"
+                    - generic [ref=e147]: RTX 3090 (0/210)
+                  - generic [ref=e148] [cursor=pointer]:
+                    - generic [ref=e149]:
+                      - checkbox "RTX 3080x2 (0/344)"
+                    - generic [ref=e151]: RTX 3080x2 (0/344)
+                  - generic [ref=e152] [cursor=pointer]:
+                    - generic [ref=e153]:
+                      - checkbox "RTX 3080 Ti (2/380)"
+                    - generic [ref=e155]: RTX 3080 Ti (2/380)
+                  - generic [ref=e156] [cursor=pointer]:
+                    - generic [ref=e157]:
+                      - checkbox "RTX A4000 (0/24)"
+                    - generic [ref=e159]: RTX A4000 (0/24)
+                  - generic [ref=e160] [cursor=pointer]:
+                    - generic [ref=e161]:
+                      - checkbox "RTX 3060 (0/32)"
+                    - generic [ref=e163]: RTX 3060 (0/32)
+                  - generic [ref=e164] [cursor=pointer]:
+                    - generic [ref=e165]:
+                      - checkbox "GTX 1080 Ti (1/14)"
+                    - generic [ref=e167]: GTX 1080 Ti (1/14)
+                  - generic [ref=e168] [cursor=pointer]:
+                    - generic [ref=e169]:
+                      - checkbox "CPU (0/328)"
+                    - generic [ref=e171]: CPU (0/328)
+                  - generic [ref=e172] [cursor=pointer]:
+                    - generic [ref=e173]:
+                      - checkbox "CPU-close-HT (0/6)"
+                    - generic [ref=e175]: CPU-close-HT (0/6)
+                  - generic [ref=e176] [cursor=pointer]:
+                    - generic [ref=e177]:
+                      - checkbox "vGPU-48GB-350W (0/152)"
+                    - generic [ref=e179]: vGPU-48GB-350W (0/152)
+            - generic [ref=e180]:
+              - generic [ref=e181]: "GPU数量:"
+              - radiogroup [ref=e182]:
+                - radio "1" [checked] [ref=e183]:
+                  - radio "1" [checked] [ref=e184]
+                  - generic [ref=e185] [cursor=pointer]: "1"
+                - radio "2" [ref=e186]:
+                  - radio "2" [ref=e187]
+                  - generic [ref=e188] [cursor=pointer]: "2"
+                - radio "3" [ref=e189]:
+                  - radio "3" [ref=e190]
+                  - generic [ref=e191] [cursor=pointer]: "3"
+                - radio "4" [ref=e192]:
+                  - radio "4" [ref=e193]
+                  - generic [ref=e194] [cursor=pointer]: "4"
+                - radio "5" [ref=e195]:
+                  - radio "5" [ref=e196]
+                  - generic [ref=e197] [cursor=pointer]: "5"
+                - radio "6" [ref=e198]:
+                  - radio "6" [ref=e199]
+                  - generic [ref=e200] [cursor=pointer]: "6"
+                - radio "7" [ref=e201]:
+                  - radio "7" [ref=e202]
+                  - generic [ref=e203] [cursor=pointer]: "7"
+                - radio "8" [ref=e204]:
+                  - radio "8" [ref=e205]
+                  - generic [ref=e206] [cursor=pointer]: "8"
+                - radio "10" [ref=e207]:
+                  - radio "10" [ref=e208]
+                  - generic [ref=e209] [cursor=pointer]: "10"
+                - radio "12" [ref=e210]:
+                  - radio "12" [ref=e211]
+                  - generic [ref=e212] [cursor=pointer]: "12"
+          - generic [ref=e213]:
+            - generic [ref=e215]: "选择主机:"
+            - generic [ref=e218]:
+              - table [ref=e220]:
+                - rowgroup [ref=e231]:
+                  - row "主机ID 算力型号/显存 空闲GPU 每GPU分配 CPU型号 硬盘 驱动/CUDA 价格(单卡)" [ref=e232]:
+                    - columnheader [ref=e233]
+                    - columnheader "主机ID" [ref=e234]:
+                      - generic [ref=e235]: 主机ID
+                    - columnheader "算力型号/显存" [ref=e236]:
+                      - generic [ref=e237]: 算力型号/显存
+                    - columnheader "空闲GPU" [ref=e238] [cursor=pointer]:
+                      - generic [ref=e239]: 空闲GPU
+                    - columnheader "每GPU分配" [ref=e243]:
+                      - generic [ref=e244]: 每GPU分配
+                    - columnheader "CPU型号" [ref=e245]:
+                      - generic [ref=e246]: CPU型号
+                    - columnheader "硬盘" [ref=e247] [cursor=pointer]:
+                      - generic [ref=e248]: 硬盘
+                    - columnheader "驱动/CUDA" [ref=e252]:
+                      - generic [ref=e253]: 驱动/CUDA
+                    - columnheader "价格(单卡)" [ref=e254]:
+                      - generic [ref=e255]: 价格(单卡)
+              - generic [ref=e256]:
+                - table:
+                  - rowgroup
+                - generic [ref=e258]: 暂时没有找到符合条件的机器，换个GPU筛选试试~
+          - generic [ref=e259]:
+            - generic [ref=e260]: "数据盘:"
+            - generic [ref=e262]:
+              - generic [ref=e263]: 免费0GB
+              - group "checkbox-group" [ref=e264]:
+                - generic [ref=e265] [cursor=pointer]:
+                  - generic [ref=e266]:
+                    - checkbox "需要扩容"
+                  - generic [ref=e268]: 需要扩容
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - generic [ref=e271]: "镜像:"
+            - generic [ref=e272]:
+              - radiogroup [ref=e273]:
+                - radio "基础镜像" [checked] [ref=e274]:
+                  - radio "基础镜像" [checked] [ref=e275]
+                  - generic [ref=e276] [cursor=pointer]: 基础镜像
+                - radio "社区镜像 hot" [ref=e277]:
+                  - radio "社区镜像 hot" [ref=e278]
+                  - generic [ref=e279] [cursor=pointer]:
+                    - text: 社区镜像
+                    - generic [ref=e280]: hot
+                - radio "我的镜像" [ref=e281]:
+                  - radio "我的镜像" [ref=e282]
+                  - generic [ref=e283] [cursor=pointer]: 我的镜像
+              - link "没有我要的环境？" [ref=e284] [cursor=pointer]:
+                - /url: /docs/base_config/
+          - generic [ref=e287]:
+            - generic [ref=e288]: 基础镜像包含常用基本软件，如：深度学习框架、Miniconda等。如需其他软件可创建后安装
+            - generic [ref=e290] [cursor=pointer]:
+              - textbox "请选择框架名称/框架版本/Python版本/CUDA版本" [ref=e291]
+              - generic [ref=e293]: 
+        - generic [ref=e294]:
+          - generic [ref=e296]: "优惠券:"
+          - generic [ref=e300]:
+            - textbox "请选择" [ref=e301] [cursor=pointer]
+            - generic [ref=e303] [cursor=pointer]: 
+      - generic [ref=e306]:
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - generic [ref=e309]: 配置费用：
+            - generic [ref=e310]: "-"
+          - generic [ref=e312]: 账户余额：￥2.46
+        - generic [ref=e313]:
+          - button "取消" [ref=e314] [cursor=pointer]:
+            - generic [ref=e315]: 取消
+          - button "创建并开机" [disabled] [ref=e316]:
+            - generic [ref=e317]: 创建并开机
+  - link:
+    - /url: /docs/
+  - link:
+    - /url: /home
+  - link:
+    - /url: /register
+  - link:
+    - /url: /login
+  - text: 框架名称        

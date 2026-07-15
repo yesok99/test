@@ -1,0 +1,36 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: GLM-5.2已上线
+      - link "大模型广场" [ref=e5] [cursor=pointer]:
+        - /url: https://autodl.art/large-model/market
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - link "logo" [ref=e55] [cursor=pointer]:
+          - /url: /
+          - img "logo" [ref=e57]
+        - generic [ref=e58]:
+          - generic [ref=e59]: AutoDL AI算力云
+          - list [ref=e60]:
+            - listitem [ref=e61]: 弹性
+            - listitem [ref=e62]: 好用
+            - listitem [ref=e63]: 省钱
+      - generic [ref=e65]:
+        - generic [ref=e67]: 微信扫一扫登录
+        - generic [ref=e69]:
+          - generic [ref=e70]: 扫码关注公众号完成登录
+          - generic [ref=e72]: 或
+          - button " 微信快捷登录" [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]:
+              - generic [ref=e75]: 
+              - text: 微信快捷登录
+          - button "返回" [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]: 返回
+  - link:
+    - /url: /docs/
+  - link:
+    - /url: /home
+  - link:
+    - /url: /register
+  - link:
+    - /url: /login

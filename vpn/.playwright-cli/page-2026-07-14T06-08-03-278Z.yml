@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: GLM-5.2已上线
+      - link "大模型广场" [ref=e5] [cursor=pointer]:
+        - /url: https://autodl.art/large-model/market
+    - generic [ref=e6]:
+      - img "logo" [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11] [cursor=pointer]: 算力市场
+          - generic [ref=e12] [cursor=pointer]: AI应用
+          - generic [ref=e13] [cursor=pointer]: 大模型API
+          - generic [ref=e14] [cursor=pointer]: 私有云
+          - generic [ref=e15] [cursor=pointer]: 帮助文档
+          - generic [ref=e16] [cursor=pointer]:
+            - text: 更多
+            - generic [ref=e17]: 
+        - generic [ref=e18]: 控制台
+      - generic [ref=e20] [cursor=pointer]:
+        - text: 炼丹师7829
+        - generic [ref=e21]: 
+    - generic [ref=e445]:
+      - generic [ref=e446] [cursor=pointer]: 领优惠券
+      - generic [ref=e448]:
+        - generic [ref=e450]: 
+        - generic [ref=e452]: 
+        - generic [ref=e454]: 
+      - text: 
+    - generic [ref=e456]:
+      - generic [ref=e457]: 充值
+      - generic [ref=e458]:
+        - generic [ref=e459]:
+          - generic [ref=e460]:
+            - generic [ref=e461]: 账户余额：
+            - generic [ref=e462]: ￥0.73
+          - generic [ref=e463]:
+            - generic [ref=e464]: 充值金额：
+            - generic [ref=e465]:
+              - radiogroup [ref=e466]:
+                - radio "￥50 成长值+50" [ref=e467] [cursor=pointer]:
+                  - generic [ref=e469]:
+                    - text: ￥50
+                    - generic [ref=e470]: 成长值+50
+                - radio "￥100 成长值+100" [ref=e471] [cursor=pointer]:
+                  - generic [ref=e473]:
+                    - text: ￥100
+                    - generic [ref=e474]: 成长值+100
+                - radio "￥500 成长值+500" [ref=e475] [cursor=pointer]:
+                  - generic [ref=e477]:
+                    - text: ￥500
+                    - generic [ref=e478]: 成长值+500
+                - radio "￥1000 成长值+1000" [ref=e479] [cursor=pointer]:
+                  - generic [ref=e481]:
+                    - text: ￥1000
+                    - generic [ref=e482]: 成长值+1000
+                - radio "￥2000 成长值+2000" [ref=e483] [cursor=pointer]:
+                  - generic [ref=e485]:
+                    - text: ￥2000
+                    - generic [ref=e486]: 成长值+2000
+                - radio "其他金额" [ref=e487] [cursor=pointer]:
+                  - generic [ref=e488]: 其他金额
+              - button "了解会员成长值>>" [ref=e489] [cursor=pointer]:
+                - generic [ref=e490]: 了解会员成长值>>
+          - generic [ref=e491]:
+            - generic [ref=e492]: 支付方式：
+            - generic [ref=e493]:
+              - radiogroup [ref=e494]:
+                - radio " 微信支付" [ref=e495] [cursor=pointer]:
+                  - generic [ref=e497]:
+                    - text: 
+                    - generic [ref=e498]: 微信支付
+                - radio " 支付宝" [ref=e499] [cursor=pointer]:
+                  - generic [ref=e501]:
+                    - text: 
+                    - generic [ref=e502]: 支付宝
+                - radio " 对公汇款" [ref=e503] [cursor=pointer]:
+                  - generic [ref=e505]:
+                    - text: 
+                    - generic [ref=e506]: 对公汇款
+              - link "如何开具发票？" [ref=e507] [cursor=pointer]:
+                - /url: /docs/invoice/
+              - link "如何对公汇款？" [ref=e508] [cursor=pointer]:
+                - /url: /docs/price/
+        - button "充值" [ref=e510] [cursor=pointer]:
+          - generic [ref=e511]: 充值
+  - link:
+    - /url: /docs/
+  - link:
+    - /url: /home
+  - link:
+    - /url: /register
+  - link:
+    - /url: /login

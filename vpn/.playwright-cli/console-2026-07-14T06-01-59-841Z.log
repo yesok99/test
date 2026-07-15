@@ -1,0 +1,28 @@
+[     161ms] [LOG] production @ https://www.autodl.com/assets/components.7b75c5a6.js:0
+[     164ms] [LOG] https://www.autodl.com @ https://www.autodl.com/assets/service-code.2c1d2cac.js:0
+[    8047ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://fe-config-backend.autodl.com/api/v1/autodl/region/tag:0
+[    8100ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://www.autodl.com/api/v1/user/member/detail:0
+[    8102ms] Error: Network Error
+    at ej (https://www.autodl.com/assets/vendor.93a2c36e.js:44:81309)
+    at o.onerror (https://www.autodl.com/assets/vendor.93a2c36e.js:44:84261)
+[   10111ms] [ERROR] Error: timeout
+    at o.ontimeout (https://o.alicdn.com/captcha-frontend/aliyunCaptcha/AliyunCaptcha.js:1:199493) @ https://o.alicdn.com/captcha-frontend/aliyunCaptcha/AliyunCaptcha.js:0
+[   10749ms] [COUNT] %c%d: 1 @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[   10749ms] [DIR] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[   10749ms] [DIRXML] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[   10749ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[   10749ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[   10749ms] [LOG] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[   10749ms] [TABLE] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[   10749ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.4.2/feilin104.f39298df43efd0cdf80d4119baa58370fe02ddb93efd744cb5f68db5a4e5256c.js:0
+[   15879ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://www.autodl.com/api/v1/common:0
+[   15881ms] Error: Network Error
+    at ej (https://www.autodl.com/assets/vendor.93a2c36e.js:44:81309)
+    at o.onerror (https://www.autodl.com/assets/vendor.93a2c36e.js:44:84261)
+[   15881ms] [ERROR] 路由发生错误 @ https://www.autodl.com/assets/index.92ef4837.js:0
+[   15881ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://www.autodl.com/api/v1/user/member/detail:0
+[   40331ms] [LOG] production @ https://www.autodl.com/assets/components.7b75c5a6.js:0
+[   40332ms] [LOG] https://www.autodl.com @ https://www.autodl.com/assets/service-code.2c1d2cac.js:0
+[   48143ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://fe-config-backend.autodl.com/api/v1/autodl/region/tag:0
+[   50280ms] [ERROR] Error: timeout
+    at o.ontimeout (https://o.alicdn.com/captcha-frontend/aliyunCaptcha/AliyunCaptcha.js:1:199493) @ https://o.alicdn.com/captcha-frontend/aliyunCaptcha/AliyunCaptcha.js:0
