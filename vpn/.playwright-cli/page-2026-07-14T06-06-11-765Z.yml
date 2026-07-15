@@ -1,9 +1,0 @@
-- generic [active] [ref=e1]:
-  - link:
-    - /url: /docs/
-  - link:
-    - /url: /home
-  - link:
-    - /url: /register
-  - link:
-    - /url: /login
